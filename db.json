@@ -1,0 +1,34 @@
+{
+  "toys": [
+    {
+      "id": "1",
+      "name": "Woody",
+      "image": "https://example.com/woody.png",
+      "likes": 15
+    },
+    {
+      "id": "2",
+      "name": "Buzz Lightyear",
+      "image": "https://example.com/buzz.png",
+      "likes": 14
+    },
+    {
+      "id": "3",
+      "name": "Jessie",
+      "image": "https://example.com/jessie.png",
+      "likes": 8
+    },
+    {
+      "id": "4",
+      "name": "Rex",
+      "image": "https://example.com/rex.png",
+      "likes": 7
+    },
+    {
+      "id": "5",
+      "name": "Slinky Dog",
+      "image": "https://example.com/slinky.png",
+      "likes": 5
+    }
+  ]
+}

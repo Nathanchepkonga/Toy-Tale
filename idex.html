@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toy Tale</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Toy Tale</h1>
+
+    <button id="new-toy-btn">Add a new toy!</button>
+    <div class="container">
+        <form id="add-toy-form" class="hidden">
+            <h3>Create a toy!</h3>
+            <input type="text" name="name" placeholder="Enter a toy's name..." class="input-text">
+            <input type="text" name="image" placeholder="Enter a toy's image URL..." class="input-text">
+            <input type="submit" name="submit" value="Create Toy" class="submit">
+        </form>
+    </div>
+
+    <div id="toy-collection"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
